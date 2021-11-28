@@ -82,6 +82,7 @@ if (autoRotate) {
 
 // add background music
 if (bgMusicURL) {
+  // document.getElementById("music").autoplay();
   document.getElementById("music-container").innerHTML += `
 <audio src="${bgMusicURL}" ${
     bgMusicControls ? "controls" : ""
