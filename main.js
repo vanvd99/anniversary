@@ -1,7 +1,4 @@
-// Author: Hoang Tran (https://www.facebook.com/profile.php?id=100004848287494)
-// Github verson (1 file .html): https://github.com/HoangTran0410/3DCarousel/blob/master/index.html
 
-// You can change global variables here:
 var radius = 240; // how big of the radius
 var autoRotate = true; // auto rotate or not
 var rotateSpeed = -60; // unit: seconds/360 degrees
