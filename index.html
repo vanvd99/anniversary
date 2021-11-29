@@ -15,6 +15,7 @@
     />
   </head>
   <body>
+    <!-- <div> -->
     <div id="drag-container">
       <div id="spin-container">
         <img src="./img/img1.jpg" alt="" />
@@ -27,6 +28,7 @@
         <img src="./img/img8.jpg" alt="" />
 
         <pre>29-03 29-11</pre>
+        
       </div>
       <div id="ground"></div>
     </div>
@@ -35,10 +37,13 @@
     <div id="canva">
       <canvas id="canvas"></canvas>
     </div>
-    <!-- <iframe src="music.mp3" allow="autoplay" id="audio" style="display: none"></iframe> -->
-    <audio id="player" autoplay loop>
+    <div>
+    <audio controls autoplay loop id="my_audio">
       <source src="music.mp3" type="audio/mp3">
   </audio>
+  </div>
+  
+
     <script src="main.js"></script>
   </body>
 </html>
