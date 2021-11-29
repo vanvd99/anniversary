@@ -26,7 +26,7 @@
         <img src="./img/img7.jpg" alt="" />
         <img src="./img/img8.jpg" alt="" />
 
-        <p>29 06</p>
+        <pre>29-03 29-11</pre>
       </div>
       <div id="ground"></div>
     </div>
@@ -35,9 +35,10 @@
     <div id="canva">
       <canvas id="canvas"></canvas>
     </div>
-    <audio controls hidden autoplay loop>
-      <source src="music.mp3" type="audio/mpeg">
-    </audio>
+    <!-- <iframe src="music.mp3" allow="autoplay" id="audio" style="display: none"></iframe> -->
+    <audio id="player" autoplay loop>
+      <source src="music.mp3" type="audio/mp3">
+  </audio>
     <script src="main.js"></script>
   </body>
 </html>

@@ -62,9 +62,9 @@ body {
     linear-gradient(transparent, transparent, #0007);
 }
 
-#drag-container p {
+#drag-container pre {
   position: absolute;
-  top: 100%;
+  top: 60%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%) rotateX(90deg);
   transform: translate(-50%, -50%) rotateX(90deg);
